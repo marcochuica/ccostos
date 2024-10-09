@@ -10,34 +10,41 @@
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Clasificador_de_Costos.</tw-noscript></noscript></tw-story>
 <tw-storydata name="Clasificador_de_Costos" startnode="1" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="9606B974-D8FB-4E4E-AA41-18DDDD044741" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Instrucciones" tags="" position="350,200" size="100,100">(text-style:&quot;expand&quot;)[&#39;&#39;CLASIFICADOR DE COSTOS&#39;&#39;]
-
-Responde las preguntas para clasificar los desembolsos de tu proyecto en:
-. Costos de Inversión (Tangibles e Intangibles)
-. Costos Directos e Indirectos (para el Estado de Resultados)
-. Costos Fijos y Variables (para el Punto de equilibrio)
-Sigue toda la secuencia para cada elemento que desees evaluar hasta que aparezca la palabra FIN.
-[[Datos]]
-
-
-(text-style:&quot;subscript&quot;)[(C) Marco Chuica Rodríguez 2024.]</tw-passagedata><tw-passagedata pid="2" name="Inicio" tags="" position="575,150" size="100,100">Será necesario adquirir o pagar este elemento {{$nombre}}:
-[[Una sola vez]], en la etapa previa al inicio de operaciones de la empresa.
-[[De forma permanente]] (diaria, semanal, mensual, etc).
+(text-style:&quot;subscript&quot;)[Responde las preguntas para clasificar los desembolsos de tu proyecto en:
+* Costos de Inversión (Tangibles e Intangibles)
+* Costos Directos e Indirectos (para el Estado de Resultados)
+* Costos Fijos y Variables (para el Punto de equilibrio)
+Sigue toda la secuencia para cada elemento que desees evaluar hasta que aparezca la palabra FIN.]
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[Ingresar]]
+(text-style:&quot;subscript&quot;)[Copyright (C) 2024 - Marco Chuica Rodríguez.]</tw-passagedata><tw-passagedata pid="2" name="Inicio" tags="" position="575,150" size="100,100">Será necesario adquirir o pagar este elemento {{$nombre}}:
+* [[Una sola vez]], generalmente ocurre en la etapa previa al inicio de operaciones de la empresa.
+* [[De forma permanente]] (diaria, semanal, mensual, etc).
 </tw-passagedata><tw-passagedata pid="3" name="Una sola vez" tags="" position="500,350" size="100,100">El elemento {{$nombre}}, además se caracteriza porque:
-[[Es un bien tangible que no es para la venta]], (permanecerá en la empresa), tiene una vida útil mayor a un año y se puede calcular su depreciación.
-[[Es un trámite o permiso]] necesario para constituir o formalizar la empresa, registrar una marca, patentar un invento, o es un software.</tw-passagedata><tw-passagedata pid="4" name="De forma permanente" tags="" position="650,350" size="100,100">¿Este elemento {{$nombre}} es, o forma parte del producto o servicio que será entregado (vendido) al cliente?
-[[Si]] //(es materia prima, insumo, producto o pago a mano de obra que interviene en su elaboración).//
-[[No]] interviene en la producción.</tw-passagedata><tw-passagedata pid="5" name="Es un bien tangible que no es para la venta" tags="" position="400,500" size="100,100">Entonces, el elemento {{$nombre}} forma parte de la inversión pre-operativa (Tangibles). FIN.
-[[Instrucciones]]</tw-passagedata><tw-passagedata pid="6" name="Es un trámite o permiso" tags="" position="600,500" size="100,100">Entonces, el elemento {{$nombre}} forma parte de la inversión pre-operativa (Intangibles). FIN.
-[[Instrucciones]]</tw-passagedata><tw-passagedata pid="7" name="Si" tags="" position="800,300" size="100,100">Entonces, el elemento {{$nombre}} forma parte de los costos directos.
-[[Continúa]]</tw-passagedata><tw-passagedata pid="8" name="No" tags="" position="800,500" size="100,100">Entonces, el elemento {{$nombre}} forma parte de los costos indirectos.
-[[Continúa]]</tw-passagedata><tw-passagedata pid="9" name="Continúa" tags="" position="975,425" size="100,100">Cuando las cantidades a producir en un periodo se incrementan o disminuyen, ¿la cantidad utilizar de {{$nombre}} también aumenta o disminuye y por lo tanto el dinero a desembolsar por este elemento también aumenta o disminuye?
-[[Si. Varía con la producción.]]
-[[No. Se mantiene constante.]]</tw-passagedata><tw-passagedata pid="10" name="Si. Varía con la producción." tags="" position="925,575" size="100,100">Entonces, {{$nombre}} es parte de los Costos Variables. FIN.
-[[Instrucciones]]</tw-passagedata><tw-passagedata pid="11" name="No. Se mantiene constante." tags="" position="1050,575" size="100,100">Entonces, {{$nombre}} es parte de los Costos Fijos. FIN.
-[[Instrucciones]]</tw-passagedata><tw-passagedata pid="12" name="Datos" tags="" position="250,325" size="100,100">¿Qué elemento del costo deseas clasificar?
+* [[Es un bien tangible que no es para la venta]], (es para uso en la empresa), tiene una vida útil mayor a un año y se puede calcular su depreciación.
+* [[Es un trámite o permiso]] necesario para constituir o formalizar la empresa, registrar una marca, patentar un invento, o es un software.</tw-passagedata><tw-passagedata pid="4" name="De forma permanente" tags="" position="650,350" size="100,100">¿Este elemento {{$nombre}} es, o forma parte del producto o servicio que será entregado (vendido) al cliente?
+* [[Si]] //(es materia prima, insumo, producto o pago a mano de obra que interviene en su elaboración).//
+* El elemento [[No]] forma parte del producto / no interviene en la producción.</tw-passagedata><tw-passagedata pid="5" name="Es un bien tangible que no es para la venta" tags="" position="400,500" size="100,100">Entonces, el elemento {{$nombre}} forma parte de la Inversión pre-operativa (Tangibles).
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[FIN.]
+
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[Instrucciones]]</tw-passagedata><tw-passagedata pid="6" name="Es un trámite o permiso" tags="" position="600,500" size="100,100">Entonces, el elemento {{$nombre}} forma parte de la Inversión pre-operativa (Intangibles).
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[FIN.]
+
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[Instrucciones]]</tw-passagedata><tw-passagedata pid="7" name="Si" tags="" position="800,300" size="100,100">Entonces, el elemento {{$nombre}} forma parte de los Costos Directos.
+
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[Continúa]]</tw-passagedata><tw-passagedata pid="8" name="No" tags="" position="800,500" size="100,100">Entonces, el elemento {{$nombre}} forma parte de los Costos Indirectos.
+
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[Continúa]]</tw-passagedata><tw-passagedata pid="9" name="Continúa" tags="" position="975,425" size="100,100">Cuando las cantidades a producir en un periodo se incrementan o disminuyen, ¿la cantidad utilizar de {{$nombre}} también aumenta o disminuye y por lo tanto el dinero a desembolsar por este elemento también aumenta o disminuye?
+* [[Si.]] {{$nombre}} varía con la producción.
+* [[No.]] {{$nombre}} se mantiene constante.</tw-passagedata><tw-passagedata pid="10" name="Si." tags="" position="925,575" size="100,100">Entonces, {{$nombre}} es parte de los Costos Variables.
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[FIN.]
+
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[Instrucciones]]</tw-passagedata><tw-passagedata pid="11" name="No." tags="" position="1050,575" size="100,100">Entonces, {{$nombre}} es parte de los Costos Fijos.
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[FIN.]
+
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[Instrucciones]]</tw-passagedata><tw-passagedata pid="12" name="Ingresar" tags="" position="250,325" size="100,100">¿Qué elemento del costo deseas clasificar?
 //Ejm: Horno, harina, pago de publicidad, sueldo del gerente, Licencia de funcionamiento.//
-[[Pulsa aquí para introducir el nombre-&gt;CapturaNombre]]</tw-passagedata><tw-passagedata pid="13" name="CapturaNombre" tags="" position="250,450" size="100,100">(set: $nombre to (prompt: &quot;Escribe el nombre del elemento&quot;,&quot;&quot;))
-[[Continuar-&gt;Inicio]]</tw-passagedata></tw-storydata>
+[[Pulsa aquí para introducir el nombre-&gt;CapturaNombre]]</tw-passagedata><tw-passagedata pid="13" name="CapturaNombre" tags="" position="250,450" size="100,100">(set: $nombre to (prompt: &quot;Nombre del elemento:&quot;,&quot;&quot;))
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X=&quot;)[[[Continuar-&gt;Inicio]]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
